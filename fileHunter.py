@@ -8,7 +8,7 @@ project_root="/home/mehranowsky/Public/Tools/Customs/JimmyNeutron/Recon/Narrow/f
 parser = argparse.ArgumentParser()
 parser.add_argument("-d",required=True, type=str,default=None, help="The target domain name")
 parser.add_argument("-dm", action="store_true", help="Date mode")
-parser.add_argument("-w",required=True, type=str, help="Wordlist")
+parser.add_argument("-w",required=True, type=str, help="wordlist.json, wordpress.json")
 args = parser.parse_args()
 
 # Domains
